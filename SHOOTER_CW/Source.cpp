@@ -29,6 +29,7 @@ void main()
 		case 's':case 'S':case DOWN_ARROW:cout << "Назад" << endl; break;
 		case 'a':case 'A':case LEFT_ARROW:cout << "Влево" << endl; break;
 		case 'd':case 'D':case RIGHT_ARROW:cout << "Вправо" << endl; break;
+		case 'r':case 'R':cout << "Перезарядка" << endl; break;
 		case ' ':cout << "Прыжок" << endl; break;
 		case 13:cout << "Огонь" << endl; break;
 		case ESCAPE:cout << "Выход" << endl; break;
