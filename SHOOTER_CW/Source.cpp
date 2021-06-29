@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <conio.h>
 using namespace std;
 
@@ -17,7 +17,7 @@ void main()
 
 
 #ifdef SHOOTER_3D
-	char key; //будет хранить код клавиши
+	char key; //Р±СѓРґРµС‚ С…СЂР°РЅРёС‚СЊ РєРѕРґ РєР»Р°РІРёС€Рё
 
 	do
 	{
@@ -25,14 +25,14 @@ void main()
 
 		switch (key)
 		{
-		case 'w':case 'W':case UP_ARROW:cout << "Вперед" << endl; break;
-		case 's':case 'S':case DOWN_ARROW:cout << "Назад" << endl; break;
-		case 'a':case 'A':case LEFT_ARROW:cout << "Влево" << endl; break;
-		case 'd':case 'D':case RIGHT_ARROW:cout << "Вправо" << endl; break;
-		case 'r':case 'R':cout << "Перезарядка" << endl; break;
-		case ' ':cout << "Прыжок" << endl; break;
-		case 13:cout << "Огонь" << endl; break;
-		case ESCAPE:cout << "Выход" << endl; break;
+		case 'w':case 'W':case UP_ARROW:cout << "Р’РїРµСЂРµРґ" << endl; break;
+		case 's':case 'S':case DOWN_ARROW:cout << "РќР°Р·Р°Рґ" << endl; break;
+		case 'a':case 'A':case LEFT_ARROW:cout << "Р’Р»РµРІРѕ" << endl; break;
+		case 'd':case 'D':case RIGHT_ARROW:cout << "Р’РїСЂР°РІРѕ" << endl; break;
+		case 'r':case 'R':cout << "РџРµСЂРµР·Р°СЂСЏРґРєР°" << endl; break;
+		case ' ':cout << "РџСЂС‹Р¶РѕРє" << endl; break;
+		case 13:cout << "РћРіРѕРЅСЊ" << endl; break;
+		case ESCAPE:cout << "Р’С‹С…РѕРґ" << endl; break;
 		case -32:break;
 		default:cout << "Error: NoAction" << endl;
 		}
@@ -43,7 +43,7 @@ void main()
 
 
 #ifdef SHOOTER_2
-	char key; //будет хранить код клавиши
+	char key; //Р±СѓРґРµС‚ С…СЂР°РЅРёС‚СЊ РєРѕРґ РєР»Р°РІРёС€Рё
 
 	do
 	{
@@ -53,7 +53,7 @@ void main()
 
 		if (key == 'W' || key == 'w' || key = UP_ARROW)
 		{
-			cout << "Вперед" << endl;
+			cout << "Р’РїРµСЂРµРґ" << endl;
 		}
 
 
